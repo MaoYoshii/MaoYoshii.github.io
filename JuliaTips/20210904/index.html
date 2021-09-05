@@ -1,0 +1,80 @@
+<!doctype html> <html lang=en > <meta charset=UTF-8 > <meta name=viewport  content="width=device-width, initial-scale=1"> <link rel=stylesheet  href="/libs/highlight/github.min.css"> <link rel=stylesheet  href="/css/franklin.css"> <link rel=stylesheet  href="/css/tufte.css"> <link rel=stylesheet  href="/css/latex.css"> <link rel=stylesheet  href="/css/adjust.css"> <link rel=icon  href="/assets/favicon.png"> <title>GRでpolar plotのレイアウトを変更する</title> <div id=layout > <div id=menu > <ul> <li><strong><font color = "maroon">日本語</font></strong> <ul> <li><a href="/index.html">ホーム</a> <li><a href="/CV_jp/">経歴</a> <li><a href="/Research_jp/">研究</a> <li><a href="/Julia_tips/">JuliaのTips</a> </ul> <li><strong><font color = "maroon">English</font></strong> <ul> <li><a href="/English/Home_eng/">Home</a> <li><a href="/English/CV_eng/">CV</a> <li><a href="/English/Research_eng/">Research</a> </ul> </ul> </div> <div id=main > <div class=franklin-content ><p>GRで極座標をプロットすると</p> <pre><code class="julia hljs"><span class=hljs-keyword >using</span> Plots
+    gr()
+    x = -<span class=hljs-number >1</span>:<span class=hljs-number >1</span>/(<span class=hljs-number >1</span>&lt;&lt;<span class=hljs-number >6</span>):<span class=hljs-number >1</span>
+    plot( x.*<span class=hljs-literal >π</span> , cospi.(<span class=hljs-number >3</span>x) , proj = :polar)</code></pre> <p><span style="color:red;">// Image matching '/assets/JuliaTips/20210904/code/π4' not found. //</span></p> <p>となります。これは<code>Plots.jl/gr.jl/</code>の<code>gr_polaraxes</code>中の<code>α</code>が45度刻みで定義されているからです。 その為、以下のように書き換えると30°刻みになります。</p> <pre><code class="julia hljs"><span class=hljs-keyword >using</span> Plots
+gr()
+
+<span class=hljs-meta >@eval</span> Plots <span class=hljs-keyword >begin</span>
+    <span class=hljs-keyword >function</span> gr_polaraxes(rmin::<span class=hljs-built_in >Real</span>, rmax::<span class=hljs-built_in >Real</span>, sp::Subplot)
+    GR.savestate()
+    xaxis = sp[:xaxis]
+    yaxis = sp[:yaxis]
+
+    <span class=hljs-comment >#α = 0:45:315    #元の定義</span>
+    α = <span class=hljs-number >0</span>:<span class=hljs-number >30</span>:<span class=hljs-number >330</span>    <span class=hljs-comment >#書き換えたもの</span>
+    a = α .+ <span class=hljs-number >90</span>
+    sinf = sind.(a)
+    cosf = cosd.(a)
+    rtick_values, rtick_labels = get_ticks(sp, yaxis, update = <span class=hljs-literal >false</span>)
+
+    <span class=hljs-comment >#draw angular grid</span>
+    <span class=hljs-keyword >if</span> xaxis[:grid]
+        gr_set_line(
+            xaxis[:gridlinewidth],
+            xaxis[:gridstyle],
+            xaxis[:foreground_color_grid],
+            sp,
+        )
+        gr_set_transparency(xaxis[:foreground_color_grid], xaxis[:gridalpha])
+        <span class=hljs-keyword >for</span> i <span class=hljs-keyword >in</span> eachindex(α)
+            GR.polyline([sinf[i], <span class=hljs-number >0</span>], [cosf[i], <span class=hljs-number >0</span>])
+        <span class=hljs-keyword >end</span>
+    <span class=hljs-keyword >end</span>
+
+    <span class=hljs-comment >#draw radial grid</span>
+    <span class=hljs-keyword >if</span> yaxis[:grid]
+        gr_set_line(
+            yaxis[:gridlinewidth],
+            yaxis[:gridstyle],
+            yaxis[:foreground_color_grid],
+            sp,
+        )
+        gr_set_transparency(yaxis[:foreground_color_grid], yaxis[:gridalpha])
+        <span class=hljs-keyword >for</span> i <span class=hljs-keyword >in</span> eachindex(rtick_values)
+            r = (rtick_values[i] - rmin) / (rmax - rmin)
+            <span class=hljs-keyword >if</span> r &lt;= <span class=hljs-number >1.0</span> &amp;&amp; r &gt;= <span class=hljs-number >0.0</span>
+                GR.drawarc(-r, r, -r, r, <span class=hljs-number >0</span>, <span class=hljs-number >359</span>)
+            <span class=hljs-keyword >end</span>
+        <span class=hljs-keyword >end</span>
+        GR.drawarc(-<span class=hljs-number >1</span>, <span class=hljs-number >1</span>, -<span class=hljs-number >1</span>, <span class=hljs-number >1</span>, <span class=hljs-number >0</span>, <span class=hljs-number >359</span>)
+    <span class=hljs-keyword >end</span>
+
+    <span class=hljs-comment >#prepare to draw ticks</span>
+    gr_set_transparency(<span class=hljs-number >1</span>)
+    GR.setlinecolorind(<span class=hljs-number >90</span>)
+    GR.settextalign(GR.TEXT_HALIGN_CENTER, GR.TEXT_VALIGN_HALF)
+
+    <span class=hljs-comment >#draw angular ticks</span>
+    <span class=hljs-keyword >if</span> xaxis[:showaxis]
+        GR.drawarc(-<span class=hljs-number >1</span>, <span class=hljs-number >1</span>, -<span class=hljs-number >1</span>, <span class=hljs-number >1</span>, <span class=hljs-number >0</span>, <span class=hljs-number >359</span>)
+        <span class=hljs-keyword >for</span> i <span class=hljs-keyword >in</span> eachindex(α)
+            x, y = GR.wctondc(<span class=hljs-number >1.1</span> * sinf[i], <span class=hljs-number >1.1</span> * cosf[i])
+            GR.textext(x, y, string((<span class=hljs-number >360</span> - α[i]) % <span class=hljs-number >360</span>, <span class=hljs-string >&quot;^o&quot;</span>))
+        <span class=hljs-keyword >end</span>
+    <span class=hljs-keyword >end</span>
+
+    <span class=hljs-comment >#draw radial ticks</span>
+    <span class=hljs-keyword >if</span> yaxis[:showaxis]
+        <span class=hljs-keyword >for</span> i <span class=hljs-keyword >in</span> eachindex(rtick_values)
+            r = (rtick_values[i] - rmin) / (rmax - rmin)
+            <span class=hljs-keyword >if</span> r &lt;= <span class=hljs-number >1.0</span> &amp;&amp; r &gt;= <span class=hljs-number >0.0</span>
+                x, y = GR.wctondc(<span class=hljs-number >0.05</span>, r)
+                gr_text(x, y, _cycle(rtick_labels, i))
+            <span class=hljs-keyword >end</span>
+        <span class=hljs-keyword >end</span>
+    <span class=hljs-keyword >end</span>
+    GR.restorestate()
+<span class=hljs-keyword >end</span>
+<span class=hljs-keyword >end</span>
+x = -<span class=hljs-number >1</span>:<span class=hljs-number >1</span>/(<span class=hljs-number >1</span>&lt;&lt;<span class=hljs-number >6</span>):<span class=hljs-number >1</span>
+plot( x.*<span class=hljs-literal >π</span> , cospi.(<span class=hljs-number >3</span>x) , proj = :polar)</code></pre> <p><span style="color:red;">// Image matching '/assets/JuliaTips/20210904/code/π6' not found. //</span></p> <div class=page-foot > <div class=copyright > &copy; Septimia Zenobia. Last modified: September 05, 2021. Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and the <a href="https://julialang.org">Julia programming language</a>. </div> </div> </div> </div> </div>
