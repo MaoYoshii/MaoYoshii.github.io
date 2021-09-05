@@ -76,4 +76,3 @@ end
 end
 x = -1:1/(1<<6):1
 plot( x.*π , cospi.(3x) , proj = :polar)
-savefig(joinpath(@OUTPUT,"π6.svg")) # hide
