@@ -14,6 +14,8 @@ Physics on the multilayer thin films and quasicrystals
 
 
 # Oral presentaiton
-1. M . Yoshii, S Kitamura, T Morimoto, Polarization of quasi-periodic heterostructures under broken inversion symmetry, JPS  Autumn Meeting 2020, online, September, 2020
-2. M . Yoshii, S Kitamura, T Morimoto, Charge transport in One-dimensional Fibonacci-Rice-Mele model, JPS  Annual Meeting 2021, online, March, 2021
-3. M . Yoshii, S Kitamura, T Morimoto, Charge pumping in one dimensional quasicrystals characterized by Bott index, APS March Meeting 2021, online, March, 2021
+1. M . Yoshii, S. Kitamura, T. Morimoto, Polarization of quasi-periodic heterostructures under broken inversion symmetry, JPS  Autumn Meeting 2020, online, September, 2020
+2. M . Yoshii, S. Kitamura, T. Morimoto, Charge transport in One-dimensional Fibonacci-Rice-Mele model, JPS  Annual Meeting 2021, online, March, 2021
+3. M . Yoshii, S. Kitamura, T. Morimoto, Charge pumping in one dimensional quasicrystals characterized by Bott index, APS March Meeting 2021, online, March, 2021
+4. Mao Yoshii, Fibonacci格子上のフラクタルな電荷輸送, 分科会, 物性若手夏の学校, online, August, 2021
+5. Mao Yoshii, juliaによる二次光学応答の実装とその可視化, Julia in Physics, online, Semptember, 2021
