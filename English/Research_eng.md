@@ -19,4 +19,4 @@ Physics on the multilayer thin films and quasicrystals
 3. M . Yoshii, S. Kitamura, T. Morimoto, Charge pumping in one dimensional quasicrystals characterized by Bott index, APS March Meeting 2021, online, March, 2021
 4. Mao Yoshii, Fibonacci格子上のフラクタルな電荷輸送, 分科会, 物性若手夏の学校, online, August, 2021
 5. Mao Yoshii, juliaによる二次光学応答の実装とその可視化, Julia in Physics, online, Semptember, 2021
-6. Mao Yoshii, Yu Dong, Sota Kitamura, Shingo Toyoda, Yuji Nakagawa, Takahiro Morimoto, Naoki Ogawa, Toshiya Ideue, Yoshihiro Iwasa, JPS  Autumn Meeting 2021, online, September, 2021
+6. Mao Yoshii, Yu Dong, Sota Kitamura, Shingo Toyoda, Yuji Nakagawa, Takahiro Morimoto, Naoki Ogawa, Toshiya Ideue, Yoshihiro Iwasa, Theory of second harmonic generation in twisted van der Waals heterostructure, JPS  Autumn Meeting 2021, online, September, 2021
