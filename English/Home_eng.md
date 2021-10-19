@@ -10,8 +10,8 @@ Master student, Applied physics department, University of Tokyo
 Contact：
 Morimoto lab, 7-3-1 Hongo, Bunkyo-ku, Tokyo, 113-8656, Japan
 
-
 Email：maoあっとg.ecc.u-tokyo.ac.jp        
+
 Tel: +813-5841-6807
 
 Please replace あっと with @

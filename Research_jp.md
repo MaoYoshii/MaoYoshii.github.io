@@ -10,7 +10,7 @@
 
 ## 投稿中
 
-# 口頭発表
+## 口頭発表
 1. 吉井真央 、北村想太、森本高裕、反転対称性の破れた準周期ヘテロ接合系における分極の理論、日本物理学会 2020 年秋季大会、オンライン、 2020年9月
 2. 吉井真央 、北村想太、森本高裕、 1次元Fibonacci-Rice-Mele模型での電荷輸送、日本物理学会 2021年年次大会、オンライン、2021年3月
 3. M. Yoshii , S. Kitamura, T. Morimoto, Charge pumping in one dimensional quasicrystals characterized by Bott index, APS March Meeting 2021, online, March ,2021
