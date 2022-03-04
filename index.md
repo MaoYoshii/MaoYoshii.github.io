@@ -26,4 +26,5 @@ Tel: 03-5841-6807
 
 * [経歴](/CV_jp/)
 * [研究](/Research_jp/)
+* [勉強ノート](/Notes_jp/)
 * [Julia tips](/Julia_tips/)
