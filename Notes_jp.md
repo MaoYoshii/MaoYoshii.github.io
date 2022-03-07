@@ -5,5 +5,5 @@
 Weyl表現の基礎と、非可換空間でのゲージ場、非可換トーラスまでを説明しています。
 
 ~~~
-<iframe src="/PDF/Noncommutative_Geometry.pdf" height="100%" width="50%"></iframe>
+<iframe src="/PDF/Noncommutative_Geometry.pdf" height="500" width="500"></iframe>
 ~~~
