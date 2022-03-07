@@ -1,4 +1,4 @@
-@def title = "吉井真央のホームページ"
+@def title = "吉井真央"
 
 Welcome to Mao Yoshii's web site
 
