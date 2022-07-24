@@ -5,7 +5,7 @@ Welcome to Mao Yoshii's web site
 
 Name：　Mao Yoshii
 
-Master student, Applied physics department, University of Tokyo
+Ph.D. student, Applied physics department, University of Tokyo
 
 Contact：
 Morimoto lab, 7-3-1 Hongo, Bunkyo-ku, Tokyo, 113-8656, Japan

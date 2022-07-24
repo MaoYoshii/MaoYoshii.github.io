@@ -9,9 +9,13 @@ Apr. 2016 – Mar. 2020
 
 &thinsp;    Department of Physics, Keio University
 
-Apr. 2020 - present
+Apr. 2020 - Mar. 2022
 
 &thinsp;    Master student, Applied physics department, University of Tokyo
+
+Apr. 2022 - present
+
+&thinsp;    Ph.D. student, Applied physics department, University of Tokyo
 
 Oct. 2020 - present
 

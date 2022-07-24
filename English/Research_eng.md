@@ -19,3 +19,4 @@ Physics on the multilayer thin films and quasicrystals
 4. Mao Yoshii, Fibonacci格子上のフラクタルな電荷輸送, 分科会, 物性若手夏の学校, online, August, 2021
 5. Mao Yoshii, juliaによる二次光学応答の実装とその可視化, Julia in Physics, online, Semptember, 2021
 6. Mao Yoshii, Yu Dong, Sota Kitamura, Shingo Toyoda, Yuji Nakagawa, Takahiro Morimoto, Naoki Ogawa, Toshiya Ideue, Yoshihiro Iwasa, Theory of second harmonic generation in twisted van der Waals heterostructure, JPS  Autumn Meeting 2021, online, September, 2021
+7. Mao Yoshii, An approach from noncommutative tori to extended Harper model, 格子上の場の理論と連続空間上の場の理論, YiTP, July, 2022
