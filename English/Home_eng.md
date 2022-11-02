@@ -1,6 +1,6 @@
-@def title = "Mao Yoshii's Home page"
+@def title = "Mao Yoshii"
 
-Welcome to Mao Yoshii's web site
+Welcome!!
 
 
 Name：　Mao Yoshii

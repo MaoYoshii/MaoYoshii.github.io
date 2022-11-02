@@ -1,6 +1,6 @@
 @def title = "吉井真央"
 
-Welcome to Mao Yoshii's web site
+Welcome!!
 
 [English page is here](/English/Home_eng/)
 
