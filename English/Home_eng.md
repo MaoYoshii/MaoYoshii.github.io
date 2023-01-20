@@ -2,7 +2,6 @@
 
 Welcome!!
 
-
 Name：　Mao Yoshii
 
 Ph.D. student, Applied physics department, University of Tokyo
@@ -18,3 +17,7 @@ Please replace あっと with @
 
 * [CV](/English/CV_eng/)
 * [Research](/English/Research_eng/)
+
+~~~
+<img src="/Images/IMG_2961.JPG" width="40%">
+~~~

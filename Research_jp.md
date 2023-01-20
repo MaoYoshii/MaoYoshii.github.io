@@ -27,5 +27,10 @@
 1. M. Yoshii, S. Kitamura, T. Morimoto, Topological Charge Pumping in a Quasicrystal, LT29, Sapporo, 2022
 2. M. Yoshii, S. Kitamura, T. Morimoto, Gap labeling theorem for multilayer thin film heterostructures, NQS2022, YITP, 2022
 
+## セミナー
+1. 準周期系のトポロジカル現象, 基礎物理学研究所, 2021年10月12日
+2. 薄膜積層系のGap labelling定理, 東京工業大学, 2022年12月12日
+3. 薄膜積層系の光学応答, 東京理科大学応用物理学科セミナー, 2023年1月12日
+   
 # 受賞歴
 1. FoPM QE審査 優秀賞、2022年2月25日

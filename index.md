@@ -28,3 +28,7 @@ Tel: 03-5841-6807
 * [研究](/Research_jp/)
 * [勉強ノート](/Notes_jp/)
 * [Julia tips](/Julia_tips/)
+
+~~~
+<img src="/Images/IMG_2961.JPG" width="40%">
+~~~
