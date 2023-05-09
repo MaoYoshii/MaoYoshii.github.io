@@ -17,17 +17,17 @@ Apr. 2022 - present
 
 &thinsp;    Ph.D. student, Applied physics department, University of Tokyo
 
-Oct. 2020 - present
-
-&thinsp;    FoPM scholar
-
-
 ## [Research](/English/Research_eng/)
 
 ## Experience
-
 Apr. 2020 – Sept. 2020
 &thinsp;    Technical assistant
 
-Aug. 2021 – present
+Oct. 2020 - Mar. 2022
 &thinsp;    Takuetsu RA
+
+Oct. 2020 - present
+&thinsp;    FoPM scholarship program
+
+Apr. 2023 - present
+&thinsp;    JSPS Research Fellow (DC2)
