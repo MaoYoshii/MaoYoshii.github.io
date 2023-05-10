@@ -20,10 +20,10 @@ Physics on the multilayer thin films and quasicrystals
 1. M . Yoshii, S. Kitamura, T. Morimoto, Polarization of quasi-periodic heterostructures under broken inversion symmetry, JPS  Autumn Meeting 2020, online, September, 2020
 2. M . Yoshii, S. Kitamura, T. Morimoto, Charge transport in One-dimensional Fibonacci-Rice-Mele model, JPS  Annual Meeting 2021, online, March, 2021
 3. M . Yoshii, S. Kitamura, T. Morimoto, Charge pumping in one dimensional quasicrystals characterized by Bott index, APS March Meeting 2021, online, March, 2021
-4. Mao Yoshii, Fibonacci格子上のフラクタルな電荷輸送, 分科会, 物性若手夏の学校, online, August, 2021
-5. Mao Yoshii, juliaによる二次光学応答の実装とその可視化, Julia in Physics, online, Semptember, 2021
-6. Mao Yoshii, Yu Dong, Sota Kitamura, Shingo Toyoda, Yuji Nakagawa, Takahiro Morimoto, Naoki Ogawa, Toshiya Ideue, Yoshihiro Iwasa, Theory of second harmonic generation in twisted van der Waals heterostructure, JPS  Autumn Meeting 2021, online, September, 2021
-7. Mao Yoshii, An approach from noncommutative tori to extended Harper model, 格子上の場の理論と連続空間上の場の理論, YiTP, July, 2022
+4. M. Yoshii, Fibonacci格子上のフラクタルな電荷輸送, 分科会, 物性若手夏の学校, online, August, 2021
+5. M. Yoshii, juliaによる二次光学応答の実装とその可視化, Julia in Physics, online, Semptember, 2021
+6. M. Yoshii, Y. Dong, S. Kitamura, S. Toyoda, Y. Nakagawa, T. Morimoto, N. Ogawa, T. Ideue, Y. Iwasa, Theory of second harmonic generation in twisted van der Waals heterostructure, JPS  Autumn Meeting 2021, online, September, 2021
+7. M. Yoshii, An approach from noncommutative tori to extended Harper model, 格子上の場の理論と連続空間上の場の理論, YITP, July, 2022
 8. M . Yoshii, S. Kitamura, T. Morimoto, Gap labelling theorem for one-dimensional multilayer system, JPS  Autumn Meeting 2022, Tokyo Institute of Technology, September, 2022
 
 ## Poster presentation
@@ -34,6 +34,7 @@ Physics on the multilayer thin films and quasicrystals
 1. Topological phenomena in quasiperiodic systems, YITP, 12th, October, 2021
 2. Gap labelling theorem in the multilayer thin films, TITECH , 12th, October, 2022
 3. Optical response in the multilayer thin films, TUS, 12th, January, 2023
+4. Optical response in the multilayer thin films, KAIST, 17h, May, 2023
 
 # Award
 1. Excellence Award, FoPM Qualifying Examination, 25th, February ,2022
