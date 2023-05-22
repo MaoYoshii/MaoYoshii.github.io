@@ -35,6 +35,7 @@ Physics on the multilayer thin films and quasicrystals
 2. Gap labelling theorem in the multilayer thin films, TITECH , 12th, October, 2022
 3. Optical response in the multilayer thin films, TUS, 12th, January, 2023
 4. Optical response in the multilayer thin films, KAIST, 17h, May, 2023
+5. Optical response in the multilayer thin films, SNU, 24h, May, 2023
 
 # Award
 1. Excellence Award, FoPM Qualifying Examination, 25th, February ,2022

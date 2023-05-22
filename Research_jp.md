@@ -33,6 +33,7 @@
 2. 薄膜積層系のGap labelling定理, 東京工業大学, 2022年12月12日
 3. 薄膜積層系の光学応答, 東京理科大学応用物理学科セミナー, 2023年1月12日
 4. Optical response in the multilayer thin films, 韓国科学技術院, 2023年5月17日
+4. Optical response in the multilayer thin films, ソウル大学校, 2023年5月24日
    
 # 受賞歴
 1. FoPM QE審査 優秀賞、2022年2月25日
