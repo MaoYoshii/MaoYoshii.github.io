@@ -13,3 +13,12 @@
 - [MoireHamiltonian.jl](https://github.com/MaoYoshii/MoireHamiltonian.jl)
 
 単層のハミルトニアンと薄膜間結合の関数から薄膜積層系のハミルトニアンを生成するためのプログラム
+
+- [ModInt.jl](https://github.com/MaoYoshii/ModInt)
+ModIntのJulia実装
+
+- [競技プログラミング用テンプレート](https://github.com/MaoYoshii/CPT)
+    - ModInt
+    - Segment木
+    - 素数
+    - next permutation
