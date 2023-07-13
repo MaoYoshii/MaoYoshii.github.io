@@ -29,6 +29,7 @@ Physics on the multilayer thin films and quasicrystals
 ## Poster presentation
 1. M. Yoshii, S. Kitamura, T. Morimoto, Topological Charge Pumping in a Quasicrystal, LT29, Sapporo, 2022
 2. M. Yoshii, S. Kitamura, T. Morimoto, Gap labeling theorem for multilayer thin film heterostructures, NQS2022, YITP, 2022
+3. M. Yoshii, Implementation of ModInt.jl, 数学と物理におけるJuliaの活用, Institute of Mathematics for Industry, 2023
 
 ## Seminar
 1. Topological phenomena in quasiperiodic systems, YITP, 12th, October, 2021
