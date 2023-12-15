@@ -13,6 +13,7 @@ Physics on the multilayer thin films and quasicrystals
 4. M. Yoshii, S. Kitamura, T. Morimoto, Gap labeling theorem for multilayer thin film heterostructures, Physical Review B, 107, 064201 (2023). [link](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.107.064201)
 
 ## In preparation
+1. M. Yoshii, S. Kitamura, T. Morimoto, Efficient momentum space approach to superconductivity in quasiperiodic system, [arXiv:2312.09124](https://arxiv.org/abs/2312.09124) (2023)
 
 # Presentation
 
@@ -25,11 +26,16 @@ Physics on the multilayer thin films and quasicrystals
 6. M. Yoshii, Y. Dong, S. Kitamura, S. Toyoda, Y. Nakagawa, T. Morimoto, N. Ogawa, T. Ideue, Y. Iwasa, Theory of second harmonic generation in twisted van der Waals heterostructure, JPS  Autumn Meeting 2021, online, September, 2021
 7. M. Yoshii, An approach from noncommutative tori to extended Harper model, 格子上の場の理論と連続空間上の場の理論, YITP, July, 2022
 8. M . Yoshii, S. Kitamura, T. Morimoto, Gap labelling theorem for one-dimensional multilayer system, JPS  Autumn Meeting 2022, Tokyo Institute of Technology, September, 2022
+9.	M. Yoshii, S. Kitamura, T. Morimoto, Gap labeling theorem for multilayer thin film heterostructures, APS March Meeting 2023, Las Vegas, March ,2023
+10.	M. Yoshii , Gap labelling theorem in the multilayer thin films, Aperiodic Order, Evian, France, September ,2023
+11.	M. Yoshii, S. Kitamura, T. Morimoto, Efficient momentum space approach to superconductivity in quasiperiodic systems, APS March Meeting 2024, Minneapolis, March ,2024
+
 
 ## Poster presentation
 1. M. Yoshii, S. Kitamura, T. Morimoto, Topological Charge Pumping in a Quasicrystal, LT29, Sapporo, 2022
 2. M. Yoshii, S. Kitamura, T. Morimoto, Gap labeling theorem for multilayer thin film heterostructures, NQS2022, YITP, 2022
-3. M. Yoshii, Implementation of ModInt.jl, 数学と物理におけるJuliaの活用, Institute of Mathematics for Industry, 2023
+3. M. Yoshii, S. Kitamura, T. Morimoto, Topological Charge Pumping in a Quasicrystal, 計算物理春の学校, 沖縄, 2023
+4. M. Yoshii, Implementation of ModInt.jl, 数学と物理におけるJuliaの活用, Institute of Mathematics for Industry, 2023
 
 ## Seminar
 1. Topological phenomena in quasiperiodic systems, YITP, 12th, October, 2021

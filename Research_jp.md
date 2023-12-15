@@ -11,6 +11,7 @@
 4. M. Yoshii, S. Kitamura, T. Morimoto, Gap labeling theorem for multilayer thin film heterostructures, Physical Review B, 107, 064201 (2023). [link](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.107.064201)
 
 ## 投稿中
+1. M. Yoshii, S. Kitamura, T. Morimoto, Efficient momentum space approach to superconductivity in quasiperiodic system, [arXiv:2312.09124](https://arxiv.org/abs/2312.09124) (2023)
 
 # 発表
 ## 口頭発表
@@ -22,11 +23,16 @@
 6. 吉井真央、Yu Dong 、北村想太、豊田新悟、中川裕治、森本高裕、小川直毅、井手上敏也、岩佐義宏、ファン・デル・ワールスヘテロ接合系での二次高調波発生の理論、日本物理学会 2021 年秋季大会、オンライン、 2021年9月
 7. 吉井真央、拡張されたHarper模型に対する非可換トーラスからのアプローチ、格子上の場の理論と連続空間上の場の理論、基礎物理学研究所、2022年7月
 8. 吉井真央、北村想太、森本高裕、一次元積層系へのgap labelling定理の拡張、日本物理学会 2022年秋季大会、東京工業大学、2022年9月
+9. M. Yoshii, S. Kitamura, T. Morimoto, Gap labeling theorem for multilayer thin film heterostructures, APS March Meeting 2023, Las Vegas, March ,2023
+10.	M. Yoshii , Gap labelling theorem in the multilayer thin films, Aperiodic Order, Evian, France, September ,2023
+11.	M. Yoshii, S. Kitamura, T. Morimoto, Efficient momentum space approach to superconductivity in quasiperiodic systems, APS March Meeting 2024, Minneapolis, March ,2024
+
 
 ## ポスター発表
 1. M. Yoshii, S. Kitamura, T. Morimoto, Topological Charge Pumping in a Quasicrystal, LT29, Sapporo, 2022
 2. M. Yoshii, S. Kitamura, T. Morimoto, Gap labeling theorem for multilayer thin film heterostructures, NQS2022, YITP, 2022
 3. M. Yoshii, S. Kitamura, T. Morimoto, Topological Charge Pumping in a Quasicrystal, 計算物理春の学校, 沖縄, 2023
+4. M. Yoshii, Implementation of ModInt.jl, 数学と物理におけるJuliaの活用, Institute of Mathematics for Industry, 2023
 
 ## セミナー
 1. 準周期系のトポロジカル現象, 基礎物理学研究所, 2021年10月12日
