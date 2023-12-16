@@ -24,8 +24,8 @@
 7. 吉井真央、拡張されたHarper模型に対する非可換トーラスからのアプローチ、格子上の場の理論と連続空間上の場の理論、基礎物理学研究所、2022年7月
 8. 吉井真央、北村想太、森本高裕、一次元積層系へのgap labelling定理の拡張、日本物理学会 2022年秋季大会、東京工業大学、2022年9月
 9. M. Yoshii, S. Kitamura, T. Morimoto, Gap labeling theorem for multilayer thin film heterostructures, APS March Meeting 2023, Las Vegas, March ,2023
-10.	M. Yoshii , Gap labelling theorem in the multilayer thin films, Aperiodic Order, Evian, France, September ,2023
-11.	M. Yoshii, S. Kitamura, T. Morimoto, Efficient momentum space approach to superconductivity in quasiperiodic systems, APS March Meeting 2024, Minneapolis, March ,2024
+10. M. Yoshii , Gap labelling theorem in the multilayer thin films, Aperiodic Order, Evian, France, September ,2023
+11. M. Yoshii, S. Kitamura, T. Morimoto, Efficient momentum space approach to superconductivity in quasiperiodic systems, APS,March Meeting 2024, Minneapolis, March ,2024
 
 
 ## ポスター発表
