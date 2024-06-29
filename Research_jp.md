@@ -26,6 +26,8 @@
 9. M. Yoshii, S. Kitamura, T. Morimoto, Gap labeling theorem for multilayer thin film heterostructures, APS March Meeting 2023, Las Vegas, March ,2023
 10. M. Yoshii, Gap labelling theorem in the multilayer thin films, Aperiodic Order, Evian, France, September, 2023
 11. M. Yoshii, S. Kitamura, T. Morimoto, Efficient momentum space approach to superconductivity in quasiperiodic systems, APS,March Meeting 2024, Minneapolis, March, 2024
+12. M. Yoshii, S. Kitamura, T. Morimoto, Brillouin zone folding method for quasiperiodic multilayer systems, Aperiodic 2024, Caen, June, 2024
+13. M. Yoshii, S. Kitamura, T. Morimoto, Topological Charge Pumping in a Quasicrystal, International Workshop on Hyperordered Structures and Quantum Materials, Saskatchewan, July, 2024
 
 
 ## ポスター発表
@@ -33,6 +35,7 @@
 2. M. Yoshii, S. Kitamura, T. Morimoto, Gap labeling theorem for multilayer thin film heterostructures, NQS2022, YITP, 2022
 3. M. Yoshii, S. Kitamura, T. Morimoto, Topological Charge Pumping in a Quasicrystal, 計算物理春の学校, 沖縄, 2023
 4. M. Yoshii, Implementation of ModInt.jl, 数学と物理におけるJuliaの活用, Institute of Mathematics for Industry, 2023
+5. M. Yoshii, S. Kitamura, T. Morimoto, Brillouin zone folding method for quasiperiodic multilayer systems, New Perspectives in Spintronics and Quantum Transport, 金沢, 2024
 
 ## セミナー
 1. 準周期系のトポロジカル現象, 基礎物理学研究所, 2021年10月12日
