@@ -8,12 +8,12 @@ Physics on the multilayer thin films and quasicrystals
 
 ## Accepted
 1. T. Akamatsu, T. Ideue, S. Kitamura, M. Yoshii, T. Morimoto, Y. Iwasa, et al., A van der Waals interface that creates in-plane polarization and a spontaneous photovoltaic effect, _Science_, __372__, 6537, pp. 68-72 (2021). [link](https://www.science.org/doi/abs/10.1126/science.aaz9146)
-2. M. Yoshii, S. Kitamura, T. Morimoto, Topological charge pumping in quasiperiodic systems characterized by Bott index, Physical Review B, 104, 155126 (2021). [link](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.104.155126),[arxiv](https://arxiv.org/abs/2105.05654)
+2. M. Yoshii, S. Kitamura, T. Morimoto, Topological charge pumping in quasiperiodic systems characterized by Bott index, _Physical Review B_, __104__, 155126 (2021). [link](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.104.155126),[arxiv](https://arxiv.org/abs/2105.05654)
 3. Y. Dong, M. M. Yang, M. Yoshii, Y. Iwasa, et al., Giant bulk piezophotovoltaic effect in 3R-MoS2, _Nature Nanotechnology_ (2022). [link](https://www.nature.com/articles/s41565-022-01252-8)
-4. M. Yoshii, S. Kitamura, T. Morimoto, Gap labeling theorem for multilayer thin film heterostructures, Physical Review B, 107, 064201 (2023). [link](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.107.064201)
+4. M. Yoshii, S. Kitamura, T. Morimoto, Gap labeling theorem for multilayer thin film heterostructures, _Physical Review B_, __107__, 064201 (2023). [link](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.107.064201)
+5. M. Yoshii, S. Kitamura, T. Morimoto, Brillouin zone folding method for quasiperiodic superconductivity in multilayer systems: Application to electronic structure and optical responses, _Physical Review B_, __111__, 024206  (2025). [link](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.111.024206)
 
 ## In preparation
-1. M. Yoshii, S. Kitamura, T. Morimoto, Efficient momentum space approach to superconductivity in quasiperiodic system, [arXiv:2312.09124](https://arxiv.org/abs/2312.09124) (2023)
 
 # Presentation
 
